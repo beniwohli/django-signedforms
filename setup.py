@@ -1,3 +1,4 @@
+import os
 from setuptools import setup, find_packages
 
 version = __import__('signedforms').__version__
@@ -6,6 +7,7 @@ setup(
     name = 'django-signedforms',
     version = version,
     description = 'A signed Django form',
+    long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
     author = 'Benjamin Wohlwend',
     author_email = 'benjamin.wohlwend@divio.ch',
     url = 'https://github.com/piquadrat/django-signedforms',
