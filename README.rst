@@ -37,3 +37,8 @@ and in the view that handles the posted form::
 
     If the user tampered with the hidden data, the form will not validate.
 
+.. warning::
+
+    Only fields that contain JSON-serializable data can be signed. This includes
+    all fields that are represented as text in the database, but not datetimes
+    and other more "complex" types.

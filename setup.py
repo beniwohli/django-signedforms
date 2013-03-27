@@ -8,7 +8,7 @@ setup(
     description = 'A signed Django form',
     author = 'Benjamin Wohlwend',
     author_email = 'benjamin.wohlwend@divio.ch',
-    url = 'http://github.com/piquadrat/django-signedforms',
+    url = 'https://github.com/piquadrat/django-signedforms',
     packages = find_packages(),
     zip_safe=False,
     install_requires=[
